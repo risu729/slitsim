@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"editorconfig.editorconfig",
+		"streetsidesoftware.code-spell-checker",
+		"zixuanchen.vitest-explorer",
+		"github.remotehub",
+		"github.vscode-pull-request-github",
+		"github.vscode-github-actions"
+	]
+}
