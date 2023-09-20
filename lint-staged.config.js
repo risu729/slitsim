@@ -95,7 +95,7 @@ export default {
 				: `cspell --relative --no-must-find-files ${filterFiles(files, false)}`,
 			containsConfigs.secretlint
 				? "pnpm lint:secret"
-				: `secretlint --fix ${filterFiles(files, false)}`,
+				: `secretlint --maskSecrets ${filterFiles(files, false)}`,
 			"pnpm lint:knip",
 			containsConfigs.prettier
 				? "pnpm format:prettier"
