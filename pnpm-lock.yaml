@@ -65,8 +65,8 @@ devDependencies:
     specifier: 1.0.2
     version: 1.0.2
   '@next/eslint-plugin-next':
-    specifier: 13.5.1
-    version: 13.5.1
+    specifier: 13.4.19
+    version: 13.4.19
   '@secretlint/secretlint-rule-preset-recommend':
     specifier: 7.0.7
     version: 7.0.7
@@ -2489,8 +2489,8 @@ packages:
     resolution: {integrity: sha512-CIMWiOTyflFn/GFx33iYXkgLSQsMQZV4jB91qaj/TfxGaGOXxn8C1j72TaUSPIyN7ziS/AYG46kGmnvuk1oOpg==}
     dev: false
 
-  /@next/eslint-plugin-next@13.5.1:
-    resolution: {integrity: sha512-LBlI3iQvlzRE7Y6AfIyHKuM4T6REGmFgweN2tBqEUVEfgxERBLOutV2xckXEp3Y3VbfJBBXKZNfDzs20gHimSg==}
+  /@next/eslint-plugin-next@13.4.19:
+    resolution: {integrity: sha512-N/O+zGb6wZQdwu6atMZHbR7T9Np5SUFUjZqCbj0sXm+MwQO35M8TazVB4otm87GkXYs2l6OPwARd3/PUWhZBVQ==}
     dependencies:
       glob: 7.1.7
     dev: true

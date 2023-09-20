@@ -54,7 +54,7 @@
 		"@cspell/cspell-types": "7.3.6",
 		"@eslint/js": "8.49.0",
 		"@humanwhocodes/gitignore-to-minimatch": "1.0.2",
-		"@next/eslint-plugin-next": "13.5.1",
+		"@next/eslint-plugin-next": "13.4.19",
 		"@secretlint/secretlint-rule-preset-recommend": "7.0.7",
 		"@secretlint/types": "7.0.7",
 		"@testing-library/jest-dom": "6.1.3",
