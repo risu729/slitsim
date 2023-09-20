@@ -5,6 +5,42 @@ updates:
     directory: /
     schedule:
       interval: daily
+    groups:
+      next:
+        patterns:
+          - next
+          - "@next/*"
+      react:
+        patterns:
+          - react
+          - react-dom
+          - "@types/react"
+          - "@types/react-dom"
+      emotion:
+        patterns:
+          - "@emotion/*"
+      vitest:
+        patterns:
+          - vitest
+          - "@vitest/*"
+      typescript-eslint:
+        patterns:
+          - "@typescript-eslint/*"
+      commitlint:
+        patterns:
+          - "@commitlint/*"
+      secretlint:
+        patterns:
+          - secretlint
+          - "@secretlint/*"
+      cspell:
+        patterns:
+          - cspell
+          - "@cspell/*"
+      micromatch:
+        patterns:
+          - micromatch
+          - "@types/micromatch"
 
   - package-ecosystem: github-actions
     directory: /
