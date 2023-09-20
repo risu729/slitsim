@@ -39,14 +39,15 @@ const configFiles = {
  * @type {(files: string[], pattern: string | false) => string}
  */
 const filterFiles = (files, pattern) =>
-	pattern === false
-		? ""
+	(pattern === false
+		? files
 		: micromatch(files, pattern, {
 				dot: true,
 				// @ts-expect-error - `posixSlashes` is not included in @types/micromatch
 				posixSlashes: true,
 				strictBrackets: true,
-		  }).join(" ");
+		  })
+	).join(" ");
 
 /**
  * @type {(files: string[]) => Promise<string>}
