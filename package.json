@@ -86,7 +86,7 @@
 		"husky": "8.0.3",
 		"ignore-sync": "7.0.1",
 		"jsdom": "22.1.0",
-		"knip": "2.25.2",
+		"knip": "2.27.1",
 		"lint-staged": "14.0.1",
 		"markdownlint-cli2": "0.10.0",
 		"micromatch": "4.0.5",
