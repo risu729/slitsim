@@ -86,8 +86,8 @@ devDependencies:
     specifier: 2.0.0
     version: 2.0.0
   '@types/micromatch':
-    specifier: 4.0.2
-    version: 4.0.2
+    specifier: 4.0.3
+    version: 4.0.3
   '@types/node':
     specifier: 20.7.0
     version: 20.7.0
@@ -2944,8 +2944,8 @@ packages:
     resolution: {integrity: sha512-trNJ/vtMZYMLhfN45uLq4ShQSw0/S7xCTLLVM+WM1rmFpba/VS42jVUgaO3w/NOLiWR/09lnYk0yMaA/atdIsg==}
     dev: false
 
-  /@types/micromatch@4.0.2:
-    resolution: {integrity: sha512-oqXqVb0ci19GtH0vOA/U2TmHTcRY9kuZl4mqUxe0QmJAlIW13kzhuK5pi1i9+ngav8FjpSb9FVS/GE00GLX1VA==}
+  /@types/micromatch@4.0.3:
+    resolution: {integrity: sha512-QX1czv7QoLU76Asb1NSVSlu5zTMx/TFNswUDtQSbH9hgvCg+JHvIEoVvVSzBf1WNCT8XsK515W+p3wFOCuvhCg==}
     dependencies:
       '@types/braces': 3.0.2
     dev: true
