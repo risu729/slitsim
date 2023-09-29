@@ -47,9 +47,9 @@
 		"react-use": "17.4.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "17.7.1",
+		"@commitlint/cli": "17.7.2",
 		"@commitlint/config-conventional": "17.7.0",
-		"@commitlint/cz-commitlint": "17.7.1",
+		"@commitlint/cz-commitlint": "17.7.2",
 		"@commitlint/types": "17.4.4",
 		"@cspell/cspell-types": "7.3.7",
 		"@eslint/js": "8.50.0",
