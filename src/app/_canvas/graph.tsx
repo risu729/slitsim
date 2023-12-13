@@ -105,7 +105,7 @@ const Graph = () => {
 						x={x}
 						y={centerY}
 						points={points.flat()}
-						stroke={key === "intensity" ? color : lightColor}
+						stroke={key.startsWith("intensity") ? color : lightColor}
 						strokeWidth={2}
 					/>
 				);
